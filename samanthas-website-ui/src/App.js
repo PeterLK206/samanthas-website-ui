@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Footer from './components/Footer';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
@@ -11,7 +11,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <Header />
 
           <Switch>

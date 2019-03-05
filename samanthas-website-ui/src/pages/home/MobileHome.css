@@ -1,0 +1,39 @@
+.MobileHome .home-image {
+  display: block;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #24A4B1;
+  margin-bottom: 20px;
+}
+
+.MobileHome .enrollment-text {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.MobileHome button {
+  background-color: #24A4B1;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.MobileHome .care-type-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.MobileHome .contact-samantha-btn {
+  display: block;
+  width: auto;
+  margin: auto;
+  margin-bottom: 10px;
+}
