@@ -1,0 +1,12 @@
+.MobileAbout .about-me-image-1 {
+  display: block;
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #24A4B1;
+  margin-bottom: 20px;
+}
+
+.MobileAbout li {
+  margin-left:15px;  
+}

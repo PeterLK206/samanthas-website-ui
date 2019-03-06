@@ -1,0 +1,17 @@
+.MobileFooter {
+  border-top-style: solid;
+  border-top-color: #646464; 
+  border-top-width: 2px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.MobileFooter a {
+  text-decoration: none;
+  color: #24A4B1;
+}
+
+.MobileFooter .activeClass {
+  color: #646464;
+}

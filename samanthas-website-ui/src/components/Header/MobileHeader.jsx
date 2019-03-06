@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import './MobileHeader.css';
+import MobileNavigation from '../Navigation/MobileNavigation';
 
-class MobileHeader extends Component {
+class MobileHeader extends Component {    
   render() {
+    console.log(this.props.isOpen)
     return (
       <div className="MobileHeader">
+        <MobileNavigation isOpen={this.props.isOpen} toggleNav={this.props.toggleNav} />
         <div className="row align-items-center">
           <h1 className="heading-title col-9">Samantha's Care</h1>
           <div className="col-3">
-            <i className="float-right fas fa-3x fa-bars"></i>
+            <i onClick={this.props.toggleNav} className="float-right fas fa-3x fa-bars clickable"></i>
           </div>
         </div>
  

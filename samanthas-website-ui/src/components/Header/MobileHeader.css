@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 
 .MobileHeader {
+  position: relative;
   margin-bottom: 20px;
 }
 
 .MobileHeader .heading-title {
-
   margin: 0;
   font-family: 'Great Vibes', cursive;
+}
+
+.MobileHeader .clickable {
+  cursor: pointer;
 }
 
 .MobileHeader .heading-text {

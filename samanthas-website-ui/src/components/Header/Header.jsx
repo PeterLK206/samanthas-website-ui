@@ -6,7 +6,7 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <MobileHeader />
+        <MobileHeader isOpen={this.props.isOpen} toggleNav={this.props.toggleNav} />
       </div>
     );
   }

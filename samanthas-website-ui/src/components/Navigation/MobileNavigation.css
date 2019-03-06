@@ -1,0 +1,29 @@
+.MobileNavigation {
+  position: absolute;
+  z-index: 2;
+  background-color: #24A4B1;
+  border-color: #646464;
+  width: 100%;
+  padding: 20px 20px; 
+}
+
+.MobileNavigation .nav-link-item {
+  display: block;
+  color: #646464;
+  font-size: 36px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #F6F5F1;
+}
+
+.MobileNavigation .nav-link-item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.MobileNavigation .nav-link-item:hover {
+  box-shadow: 1px 2px 2px 2px #646464;
+}
+
+.MobileNavigation .activeNav {
+  box-shadow: 1px 2px 2px 2px #646464;
+}

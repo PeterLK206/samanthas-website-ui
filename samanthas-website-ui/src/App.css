@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Philosopher');
 
-* p {
+*, p {
   font-family: 'Philosopher', sans-serif;
   padding: 0;
   margin: 0;
+}
+
+html, body {
+  background-color: #F6F5F1;
 }
 
 .App {
