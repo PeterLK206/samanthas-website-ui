@@ -51,7 +51,7 @@ class MobileContact extends Component {
         {
           (showForm) ?
             <div className="form-inputs">
-              <h5 className="text-center"><u>Contact Me Here</u></h5>
+              <h5 className="text-center mt-2"><u>Contact Me Here</u></h5>
 
               <div className="form-group mt-2">
                 <label>Email address</label>
