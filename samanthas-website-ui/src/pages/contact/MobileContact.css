@@ -1,0 +1,56 @@
+.MobileContact input, .MobileContact textarea {
+  border-radius: 0;
+  border-color: #646464;
+}
+
+.MobileContact .form-inputs {
+  padding: 5px;
+  border-top: solid #646464 2px;
+}
+
+.MobileContact .contact-blurb {
+  margin-bottom: 15px;
+}
+
+.MobileContact .googleMap {
+  border-top: solid #646464 2px;
+  padding: 5px;
+}
+
+.MobileContact .iframe {
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #646464;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.MobileContact button:hover {
+  box-shadow: 1px 2px 2px 2px #646464;
+}
+
+.MobileContact button {
+  background-color: #24A4B1;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+.MobileContact .send-btn {
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.MobileContact .green-check-mark {
+  display: block;
+  margin: auto;
+  width: 30%;
+}

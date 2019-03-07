@@ -4,7 +4,6 @@ import MobileNavigation from '../Navigation/MobileNavigation';
 
 class MobileHeader extends Component {    
   render() {
-    console.log(this.props.isOpen)
     return (
       <div className="MobileHeader">
         <MobileNavigation isOpen={this.props.isOpen} toggleNav={this.props.toggleNav} />
