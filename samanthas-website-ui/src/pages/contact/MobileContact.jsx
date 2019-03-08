@@ -101,8 +101,6 @@ class MobileContact extends Component {
           <h5 className="text-center mt-2"><u>Located Here</u></h5>
           <h6 className="">Just a mile away from WA-99, making getting on with your commute a much easier one.</h6>
           <iframe title="samanthas-location" className="iframe" frameBorder="0" src="https://www.google.com/maps/embed/v1/place?q=8139+14th+Ave+SW&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div>
-
-
       </div>
     );
   }

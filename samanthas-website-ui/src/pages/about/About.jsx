@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
+import MediaQuery from 'react-responsive';
 import './About.css';
 import MobileAbout from './MobileAbout';
 
 class About extends Component {
-  render() {
+  render () {
     return (
       <div className="About">
-        <MobileAbout />
+        <MediaQuery minWidth={769}>
+          {/* Desktop Code Goes Here! */}
+        </MediaQuery>
+        <MediaQuery maxWidth={768}>
+          <MobileAbout />
+        </MediaQuery>
       </div>
     );
   }

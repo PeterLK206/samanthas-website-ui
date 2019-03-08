@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './MobileHeader.css';
 import MobileNavigation from '../Navigation/MobileNavigation';
 
-class MobileHeader extends Component {    
+class MobileHeader extends Component {   
   render() {
     return (
       <div className="MobileHeader">
@@ -15,6 +15,8 @@ class MobileHeader extends Component {
         </div>
  
         <div className="heading-text">Home Childcare in West Seattle</div>
+
+        <hr className="heading-hr"/>
       </div>
     );
   }

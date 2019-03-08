@@ -69,7 +69,7 @@ class MobileHome extends Component {
             <p className="text-center">Cost: ${ selectedCareType.partTimeCost } per Month</p>
             <p className="text-center mt-2">(For Part-Time, more or less days can be negotiated.)</p> 
           </div>
-        <Link onClick={this.props.toggleNav} to="/contact"><button className="contact-samantha-btn">Contact Samantha</button></Link>
+        <Link onClick={this.props.closeNav} to="/contact"><button className="contact-samantha-btn">Contact Samantha</button></Link>
       </div>
     );
   }

@@ -2,7 +2,7 @@
 
 .MobileHeader {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .MobileHeader .heading-title {
@@ -18,4 +18,10 @@
   font-size: 18px;
   width: 100%;
   color: #24A4B1;
+  margin-bottom: 5px;
+}
+
+.MobileHeader .heading-hr {
+  width: 95%;
+  margin: auto;
 }

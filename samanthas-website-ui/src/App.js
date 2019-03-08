@@ -14,13 +14,16 @@ class App extends Component {
 
     this.state = {
       isOpen: false
-    }
-
-    this.toggleNav = this.toggleNav.bind(this);
+    };
   }
 
-  toggleNav() {
+  toggleNav = () => {
+    console.log(this.state.isOpen)
     this.setState({isOpen: !this.state.isOpen});
+  }
+
+  closeNav = () => {
+    this.setState({isOpen: false});
   }
 
   render() {
@@ -29,14 +32,14 @@ class App extends Component {
         <Header isOpen={this.state.isOpen} toggleNav={this.toggleNav} />
 
           <Switch>
-            <Route exact path="/"   render={() => <Home toggleNav={this.toggleNav} />} />
+            <Route exact path="/"   render={() => <Home closeNav={this.closeNav} />} />
             <Route path="/about"    render={() => <About />} />
             <Route path="/pictures" render={() => <Pictures />} />
             <Route path="/contact"  render={() => <Contact />} />
             <Redirect to="/" />
           </Switch>
 
-        <Footer />
+        <Footer closeNav={this.closeNav}/>
       </div>
     );
   }
