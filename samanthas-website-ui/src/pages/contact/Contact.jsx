@@ -8,7 +8,7 @@ class Contact extends Component {
     return (
       <div className="Contact">
         <MediaQuery minWidth={769}>
-          {/* Desktop Code Goes Here! */}
+        <div>Desktop</div>
         </MediaQuery>
         <MediaQuery maxWidth={768}>
           <MobileContact />

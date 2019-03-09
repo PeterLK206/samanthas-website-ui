@@ -9,9 +9,9 @@
 
 .MobileFooter a {
   text-decoration: none;
-  color: #24A4B1;
+  color: #646464;
 }
 
 .MobileFooter .activeClass {
-  color: #646464;
+  color: #24A4B1;
 }

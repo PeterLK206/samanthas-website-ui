@@ -1,0 +1,30 @@
+{
+  "infants": {
+    "ageRange": "Age: (3 to 12) Months",
+    "fullTimeCost": "1,320.00",
+    "partTimeCost": "780.00",
+    "selected": "INFANTS",
+    "type": "Infants"
+  },
+  "toddlers": {
+    "ageRange": "Age: (13 to 23) Months",
+    "fullTimeCost": "1,210.00",
+    "partTimeCost": "715.00",
+    "selected": "TODDLERS",
+    "type": "Toddlers"
+  },
+  "preschoolers": {
+    "ageRange": "Age: (2+ years)",
+    "fullTimeCost": "1,100.00",
+    "partTimeCost": "650.00",
+    "selected": "PRESCHOOLERS",
+    "type": "Preschoolers"
+  },
+  "selectedCareType": {
+    "ageRange": "Age: (3 to 18) Months",
+    "fullTimeCost": "1,320.00",
+    "partTimeCost": "780.00",
+    "selected": "INFANTS",
+    "type": "Infants"
+  }
+}

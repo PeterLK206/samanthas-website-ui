@@ -1,0 +1,13 @@
+.DesktopNavigation {
+  display: inline-flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.DesktopNavigation .nav-link-item {
+  font-size: 18px;
+  color: #646464;
+}
+
+.DesktopNavigation .activeNav {
+  color: #24A4B1;
+}

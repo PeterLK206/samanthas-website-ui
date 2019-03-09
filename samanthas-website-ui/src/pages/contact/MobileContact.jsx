@@ -45,9 +45,7 @@ class MobileContact extends Component {
     let showX = !loading && isMessageSent && !isMessageSuccess;
     return (
       <div className="MobileContact">
-
         <p className="contact-blurb">If you have any questions feel free to send me a message &#9786;. I try to get back to all messages within 24 hours.</p>
-
         {
           (showForm) ?
             <div className="form-inputs">

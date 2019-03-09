@@ -4,7 +4,7 @@ import './MobileHome.css';
 import PricesAvailibility from './PricesAvailibility';
 const careType = require('./cost-availibility-data.json')
 
-class MobileHome extends Component {
+class DesktopHome extends Component {
   constructor(props) {
     super(props);
     console.log(careType)
@@ -23,26 +23,23 @@ class MobileHome extends Component {
   }
 
   render() {
-    let { careType: { selectedCareType: { isSelected, ageRange, fullTimeCost, partTimeCost } } } = this.state;
+    let { careType: { infants, toddlers, preschoolers } } = this.state;
 
     return (
-      <div className="MobileHome">
+      <div className="DesktopHome">
         <img className="home-image" src={`${process.env.PUBLIC_URL}/img/daycare-stock-1.jpg`} alt="Woman with daycare children on a desk playing with play dough"/>
         <h4 className="enrollment-text">Currently Open For Enrollment</h4>
 
-        <div className="care-type-btns">
-          <button className={(isSelected === "INFANTS") ? "selectedActive" : ""} onClick={() => this.selectCareType("infants")}>Infants</button>
-          <button className={(isSelected === "TODDLERS") ? "selectedActive" : ""} onClick={() => this.selectCareType("toddlers")}>Toddlers</button>
-          <button className={(isSelected === "PRESCHOOLERS") ? "selectedActive" : ""} onClick={() => this.selectCareType("preschoolers")}>Preschoolers</button>
-        </div>
-
-        <PricesAvailibility isSelected={isSelected} ageRange={ageRange} fullTimeCost={fullTimeCost} partTimeCost={partTimeCost} />
-        <p className="text-center mb-2">(For Part-Time, if you need more or less than 3 days, prices can be negotiated.)</p> 
-
+      <div className="price-availibility-group">
+        <PricesAvailibility className={"prices-availibility-item"} type={infants.type} isSelected={infants.isSelected} ageRange={infants.ageRange} fullTimeCost={infants.fullTimeCost} partTimeCost={infants.partTimeCost} />
+        <PricesAvailibility className={"prices-availibility-item"} type={toddlers.type} isSelected={toddlers.isSelected} ageRange={toddlers.ageRange} fullTimeCost={toddlers.fullTimeCost} partTimeCost={toddlers.partTimeCost} />
+        <PricesAvailibility className={"prices-availibility-item"} type={preschoolers.type} isSelected={preschoolers.isSelected} ageRange={preschoolers.ageRange} fullTimeCost={preschoolers.fullTimeCost} partTimeCost={preschoolers.partTimeCost} />
+      </div>
+      <p className="text-center">(For Part-Time, if you need more or less than 3 days, prices can be negotiated.)</p> 
         <Link onClick={this.props.closeNav} to="/contact"><button className="contact-samantha-btn">Contact Samantha</button></Link>
       </div>
     );
   }
 }
 
-export default MobileHome;
+export default DesktopHome;

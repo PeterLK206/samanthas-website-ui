@@ -27,6 +27,10 @@
   
 }
 
+.MobileHome button {
+  margin-left: 10px;
+}
+
 .MobileHome a {
   text-decoration: none;
 }
@@ -39,8 +43,9 @@
 .MobileHome .care-type-btns {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
+
 
 .MobileHome .contact-samantha-btn {
   display: block;
@@ -51,7 +56,30 @@
 
 .MobileHome .selectedActive {
   border-style: solid;
-  border-width: 2px;
+  border-width: 5px;
   border-color: #646464;
 }
 
+.MobileHome .availibility-prices {
+  margin-top: 10px;
+  margin-bottom: 10px !important;
+  border-radius: 0;
+  border-color: #646464;
+  border-width: 1.5px !important;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.MobileHome .time-cost-border {
+  border: 1px #24A4B1 solid;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.MobileHome .time-cost-border:first-of-type {
+  margin-top: 15px;
+}

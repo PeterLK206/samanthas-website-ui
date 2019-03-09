@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className="Footer">
 
         <MediaQuery minWidth={769}>
-          {/* Desktop Code Goes Here! */}
+        <MobileFooter closeNav={this.props.closeNav} />
         </MediaQuery>
         <MediaQuery maxWidth={768}>
           <MobileFooter closeNav={this.props.closeNav} />

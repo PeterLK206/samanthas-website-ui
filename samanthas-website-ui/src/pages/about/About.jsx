@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div className="About">
         <MediaQuery minWidth={769}>
-          {/* Desktop Code Goes Here! */}
+        <div>Desktop</div>
         </MediaQuery>
         <MediaQuery maxWidth={768}>
           <MobileAbout />

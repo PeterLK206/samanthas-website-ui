@@ -1,0 +1,25 @@
+.DesktopHeader {
+  position: relative;
+}
+
+.DesktopHeader .heading-text {
+  font-size: 14px;
+  color: #24A4B1;
+}
+
+.DesktopHeader .heading-title {
+  
+  font-size: 36px;
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+}
+
+.DesktopHeader .phone {
+  color: #24A4B1;
+}
+
+.DesktopHeader .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
